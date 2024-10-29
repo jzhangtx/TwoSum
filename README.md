@@ -20,3 +20,13 @@ n space-separated integers denoting the elements of the array.
 An integer ‘target’ denoting the target value.
 Output Format
 For each test case, the output has two space-separated integers ‘i’ and ‘j’ denoting the indices of the array.
+
+Build
+Windows:
+Open TwoSum.sln with Visual Studio 2022, choose the desired config and build
+
+Linux:
+g++ -o TwoSum.exe TwoSum/TwoSum.cpp
+
+Linux Makefile:
+make

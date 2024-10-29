@@ -15,7 +15,7 @@ std::pair<int, int> TwoSum(std::vector<int>& vec, int target)
         }
     }
 
-    throw std::exception("No match found!");
+    throw std::runtime_error("No match found!");
 }
 
 int main()
